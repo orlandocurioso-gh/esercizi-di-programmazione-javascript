@@ -17,3 +17,8 @@
 
   http://www.imparareaprogrammare.it
 */
+var gatti=5;
+var fila=2;
+numeroFile= Math.ceil(gatti/fila);
+gattiInmeno=(numeroFile*fila)-gatti;
+alert("File: " + numeroFile + "gatti in meno: " + attiInmeno);
